@@ -1,7 +1,9 @@
 ## Install packages
+`
 !git clone https://github.com/AssemblyAI-Examples/mediapipe-python.git
 !pip install mediapipe
 !pip install PyQt5
+`
 
 ## import liraries
 import cv2

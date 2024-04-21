@@ -1,5 +1,4 @@
 ## Install packages
-
 !git clone https://github.com/AssemblyAI-Examples/mediapipe-python.git
 
 !pip install mediapipe

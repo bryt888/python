@@ -98,6 +98,9 @@ display(img)
 
 
 ##Pose
+# Fetch image for analysis
+img_url = "https://static.turbosquid.com/Preview/2015/11/10__11_56_36/anthonystanding23dmetry3dhuman01.jpg5e774d4d-9b9e-456d-9d7b-fc4d741cf940Large.jpg"
+urllib.request.urlretrieve(img_url, "pose.jpg")
 # Specify the image filename
 file = 'pose.jpg'
 

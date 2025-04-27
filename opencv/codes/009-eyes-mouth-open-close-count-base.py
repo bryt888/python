@@ -13,14 +13,6 @@ eye_drawing_spec = mp_draw.DrawingSpec(color=(0, 255, 0), thickness=2, circle_ra
 mouth_drawing_spec = mp_draw.DrawingSpec(color=(255, 0, 0), thickness=2, circle_radius=2)   # Blue
 point_drawing_spec = None
 
-# 定义关键点
-# Left eye: top, bottom, left, right
-LEFT_EYE_LANDMARKS = [386, 374, 362, 263]
-# Right eye: top, bottom, left, right
-RIGHT_EYE_LANDMARKS = [159, 145, 133, 33]
-# Mouth landmarks: top, bottom, left, right
-MOUTH_LANDMARKS = [13, 14, 78, 308]
-
 cap = cv2.VideoCapture(0)
 
 while cap.isOpened():
